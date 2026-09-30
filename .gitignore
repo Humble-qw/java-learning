@@ -1,0 +1,32 @@
+# 编译产物
+*.class
+target/
+out/
+build/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# 日志
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地配置（含密码，绝不提交）
+application-local.yml
+application-local.properties
+*.env
